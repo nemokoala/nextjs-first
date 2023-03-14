@@ -3,7 +3,6 @@
 const API_KEY = process.env.API_KEY;
 const nextConfig = {
   reactStrictMode: true,
-  basePath: "/nextjs-first",
   async redirects() {
     return [
       {
